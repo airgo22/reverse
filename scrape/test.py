@@ -1,9 +1,7 @@
 import requests
+# 注意这个pywasm版本不要高于1.0
 import pywasm
 import time
-
-
-
 
 headers = {
     "Accept": "application/json, text/plain, */*",
